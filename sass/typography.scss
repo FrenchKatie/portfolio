@@ -1,0 +1,11 @@
+$font: 'Spectral';
+
+//Creating a mixin:
+// @mixin font-header{
+//   font-family: $font;
+// }
+
+.test{
+  font-family: $font;
+  // background-color: green;
+}

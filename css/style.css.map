@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAOA,KAAK;EACH,WAAW,EARN,UAAU",
+"sources": ["../sass/typography.scss"],
+"names": [],
+"file": "style.css"
+}
