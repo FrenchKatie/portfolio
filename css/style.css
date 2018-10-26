@@ -1,4 +1,32 @@
-.test {
+body {
   font-family: "Spectral"; }
+
+ul {
+  text-decoration: none;
+  list-style-type: none; }
+  ul li {
+    display: inline-block; }
+
+.home-intro {
+  line-height: 250%;
+  font-size: 1.2em; }
+
+.line-long {
+  height: 1px;
+  background-color: black;
+  width: 100%; }
+
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box; }
+
+.projectOne-featureimg {
+  height: 500px;
+  background-color: black;
+  background-image: url("../images/projectone-featureimg.png");
+  background-position: center;
+  background-size: cover; }
 
 /*# sourceMappingURL=style.css.map */

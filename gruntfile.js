@@ -5,14 +5,14 @@ module.exports = function(grunt){
           files: [{
             expand: true,
             cwd: 'css/',
-            src: ['*.css', '!*.min.css'],
+            src: ['css/style.css', '!css/styl.min.css'],
             dest: 'css/',
             ext: '.min.css'
           }]
         }
     },
     jshint: {
-        files: ["*.js", "js/script.js"],
+        files: ["js/script.js", "js/script.js"],
         options: {
             globals:{
                 jQuery: true
@@ -51,7 +51,7 @@ module.exports = function(grunt){
             tasks:["jshint", "uglify"]
         },
         sass:{
-            files:["sass/style.scss"],
+            files:["sass/*.scss"],
             tasks:["sass"]
         }
     }

@@ -4,7 +4,7 @@
   "description": "Personal portfolio of all my work",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev:server": "nodemon -L index.js"
   },
   "repository": {
     "type": "git",
@@ -23,6 +23,10 @@
     "grunt-contrib-jshint": "^2.0.0",
     "grunt-contrib-sass": "^1.0.0",
     "grunt-contrib-uglify": "^4.0.0",
-    "grunt-contrib-watch": "^1.1.0"
+    "grunt-contrib-watch": "^1.1.0",
+    "nodemon": "^1.18.4"
+  },
+  "dependencies": {
+    "express": "^4.16.4"
   }
 }

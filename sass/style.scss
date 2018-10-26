@@ -1,6 +1,9 @@
 @import 'typography.scss';
+@import 'decoration.scss';
+@import 'reset.scss';
+@import 'bgImages.scss';
 
-//Importing a mixin:
-// .font-header{
-//   @include font-header;
+
+// .container{
+//    margin-top: 3em;
 // }

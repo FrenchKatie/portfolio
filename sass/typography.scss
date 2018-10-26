@@ -1,11 +1,54 @@
-$font: 'Spectral';
-
 //Creating a mixin:
 // @mixin font-header{
 //   font-family: $font;
 // }
 
-.test{
-  font-family: $font;
-  // background-color: green;
+//Importing a mixin:
+// .font-header{
+//   @include font-header;
+// }
+
+//Typography variables:
+$font: 'Spectral';
+$lineSpacing: 250%;
+
+//General Typography Styles:
+body{
+   font-family: $font;
+}
+ul{
+   text-decoration: none;
+   list-style-type: none;
+   li{
+      display: inline-block;
+   }
+}
+
+
+//Main Typography Mixins:
+@mixin text-header{
+   font-size: 4em;
+}
+
+@mixin text-subheader{
+   font-size: 1.2em;
+}
+
+@mixin text-intro{
+   line-height: $lineSpacing;
+   font-size: 1.2em;
+}
+
+@mixin text-link{
+   font-size: 0.8em;
+}
+
+@mixin text-paragraph{
+   font-size: 0.8em;
+   line-height: $lineSpacing;
+}
+
+.home-intro{
+   @include text-intro;
+   // width: 50%;
 }
