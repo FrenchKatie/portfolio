@@ -31,7 +31,8 @@ ul{
 }
 
 @mixin text-subheader{
-   font-size: 1.2em;
+   // font-size: 1.2em;
+   font-size: 0.4em;
 }
 
 @mixin text-intro{
@@ -48,7 +49,53 @@ ul{
    line-height: $lineSpacing;
 }
 
+
+//Main Typography Classes
 .home-intro{
    @include text-intro;
    // width: 50%;
+}
+.project-number{
+   @include text-header;
+}
+.project-name{
+   @include text-subheader;
+}
+.project-paragraph{
+   @include text-paragraph;
+}
+.project-link{
+   @include text-link;
+}
+
+
+
+@mixin project-text{
+   position: absolute;
+   width: 40% !important;
+}
+
+@mixin project-text-left{
+   @include project-text;
+   left: 12%;
+}
+@mixin project-text-right{
+   @include project-text;
+   right: 12%;
+}
+.projectOne-text{
+   @include project-text-left;
+   top: 20em;
+}
+.projectTwo-text{
+   @include project-text-right;
+   top: 58em;
+}
+.projectThree-text{
+   @include project-text-left;
+   top: 90em;
+}
+.projectFour-text{
+   @include project-text-right;
+   top: 125em;
 }

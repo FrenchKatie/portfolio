@@ -7,3 +7,33 @@
 // .container{
 //    margin-top: 3em;
 // }
+
+
+
+.flexMe{
+   display: flex;
+   align-content: flex-start;
+}
+.flexChildren{
+   flex: 1;
+}
+.test{
+   // outline: 1px red solid;
+}
+
+.container{
+   // outline: 1px pink solid;
+}
+header{
+   // outline: 1px blue solid;
+}
+.main{
+   // outline: 1px red solid;
+}
+.project-text{
+   // outline: 1px green solid;
+}
+.project{
+   margin-bottom: 5em;
+   margin-top: 5em;
+}

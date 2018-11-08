@@ -1,8 +1,36 @@
-.projectOne-featureimg{
-   height: 500px;
-   background-color: black;
-   background-image: url("../images/projectone-featureimg.png");
-   background-position: center;
-   background-size: cover;
+// #projectOne-featureimg{
+//    height: 500px;
+//    background-color: black;
+//    background-image: url("../images/projectone-featureimg.png");
+//    background-position: center;
+//    background-size: cover;
+// }
 
+#projectOne-featureimg img{
+   opacity: 0.7;
+   width: 60%;
+}
+#projectOne-featureimg img:hover{
+   opacity: 1;
+}
+#projectTwo-featureimg img{
+   opacity: 0.7;
+   width: 60%;
+}
+#projectTwo-featureimg img:hover{
+   opacity: 1;
+}
+#projectThree-featureimg img{
+   opacity: 0.7;
+   width: 60%;
+}
+#projectThree-featureimg img:hover{
+   opacity: 1;
+}
+#projectFour-featureimg img{
+   opacity: 0.7;
+   width: 60%;
+}
+#projectFour-featureimg img:hover{
+   opacity: 1;
 }

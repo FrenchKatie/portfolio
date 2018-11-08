@@ -3,3 +3,42 @@
    background-color: black;
    width: 100%;
 }
+
+
+@mixin productionTool{
+   width: 0.6em;
+   height: 0.6em;
+   margin-left: 1em;
+   margin-right: 0.5em;
+   border-radius: 25px;
+}
+
+
+.html{
+   @include productionTool;
+   background-color: #e77f67;
+}
+.css{
+   @include productionTool;
+   background-color: #778beb;
+}
+.jquery{
+   @include productionTool;
+   background-color: #f8a5c2;
+}
+.javascript{
+   @include productionTool;
+   background-color: #f5cd79;
+}
+.nodejs{
+   @include productionTool;
+   background-color: #63cdda;
+}
+.react{
+   @include productionTool;
+   background-color: #ff4d4d;
+}
+.apis{
+   @include productionTool;
+   background-color: #cd84f1;
+}
