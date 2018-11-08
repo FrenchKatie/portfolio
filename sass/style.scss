@@ -1,39 +1,33 @@
 @import 'typography.scss';
 @import 'decoration.scss';
 @import 'reset.scss';
-@import 'bgImages.scss';
+@import 'images.scss';
 
-
-// .container{
-//    margin-top: 3em;
-// }
-
-
-
-.flexMe{
-   display: flex;
-   align-content: flex-start;
-}
-.flexChildren{
-   flex: 1;
-}
-.test{
-   // outline: 1px red solid;
-}
-
-.container{
-   // outline: 1px pink solid;
-}
-header{
-   // outline: 1px blue solid;
-}
-.main{
-   // outline: 1px red solid;
-}
-.project-text{
-   // outline: 1px green solid;
-}
 .project{
    margin-bottom: 5em;
    margin-top: 5em;
+}
+
+.main{
+   // background-color: blue;
+   margin-top: 20em;
+
+}
+.container{
+   // outline: 1px solid red;
+}
+#navbar{
+   overflow: hidden;
+   background-color: white;
+   padding-top: 60px; /* Large padding which will shrink on scroll (using JS) */
+   transition: 0.4s; /* Adds a transition effect when the padding is decreased */
+   position: fixed; /* Sticky/fixed navbar */
+   width: 80%;
+   margin: auto;
+   top: 0; /* At the top */
+   z-index: 99;
+}
+#navbar #home-intro-text{
+   // padding: 90px 10px;
+   // transition: 0.4s; /* Adds a transition effect when the padding is decreased */
 }

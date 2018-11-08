@@ -22,6 +22,10 @@
    @include productionTool;
    background-color: #778beb;
 }
+.sass{
+   @include productionTool;
+   background-color: #70a1ff;
+}
 .jquery{
    @include productionTool;
    background-color: #f8a5c2;
